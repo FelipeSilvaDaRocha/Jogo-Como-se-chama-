@@ -143,6 +143,10 @@ function draw() {
       text("Voltar", 75-tempo,405);
       if (mouseIsPressed) {
         tela = 1;
+        nível = 1;
+        contPontos = 0;
+        cont = 0;
+        cont2 = 0;
       }
     }
     else{
@@ -351,9 +355,4 @@ function mouseClicked(){
     escolha = 2;
     num = prompt("Qual a figura que você deseja ver?");
   }
-  /*if(mouseX>110 && mouseX<150 && mouseY>380 && mouseY<420 && nível==3){
-    num = prompt("Qual a figura que você deseja ver?");
-  }*/
 }
-
-//Link do vídeo: https://mega.nz/file/MjphlSjK#n3Plc8qIgqVcP2GuAUUlh_EE473wuslHJl3b8YTla2E
