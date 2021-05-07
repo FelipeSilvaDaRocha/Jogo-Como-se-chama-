@@ -1,3 +1,12 @@
+/*
+Lógica do jogo:
+- Fazer a leitura visual da figura;
+- Escrever o nome da figura que aparece no quadro;
+Na seção bônus a lógica é reversa:
+- Lembrar das figuras que viu e escolher a opção correspondente a característica da figura: se animal ou se objeto;
+- Digitar a palavra que nomeia a figura;
+- Mostrar figura.*/
+
 var tela = 1;
 var tempo=60;
 var largura = 230;
