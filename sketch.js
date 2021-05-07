@@ -137,6 +137,7 @@ function draw() {
         tempo=0;
       }
       
+      textStyle(BOLD);
       stroke(240);
       fill(0);
       textSize(17);
